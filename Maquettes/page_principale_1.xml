@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBF9F9"
+    android:backgroundTint="#FDFDFD"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="113dp"
+        android:layout_height="34dp"
+        android:text="Neque"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="113dp"
+        android:layout_height="34dp"
+        android:text="Neque"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="324dp"
+        android:layout_height="40dp"
+        android:text="Vos préférés"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="520dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="163dp"
+        android:layout_height="56dp"
+        android:text="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.."
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="753dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="165dp"
+        android:layout_height="179dp"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:layout_editor_absoluteX="215dp"
+        tools:layout_editor_absoluteY="563dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="163dp"
+        android:layout_height="56dp"
+        android:text="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.."
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="753dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="165dp"
+        android:layout_height="179dp"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="563dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="163dp"
+        android:layout_height="56dp"
+        android:text="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.."
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="435dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="165dp"
+        android:layout_height="179dp"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:layout_editor_absoluteX="215dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="324dp"
+        android:layout_height="40dp"
+        android:text="Recettes de la semaine"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="165dp"
+        android:layout_height="179dp"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="163dp"
+        android:layout_height="56dp"
+        android:text="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.."
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="435dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="414dp"
+        android:layout_height="136dp"
+        android:background="#DC817A"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="113dp"
+        android:layout_height="34dp"
+        android:text="Légumes"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="52dp"
+        android:layout_height="55dp"
+        app:srcCompat="@android:drawable/ic_dialog_dialer"
+        tools:layout_editor_absoluteX="343dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recepify"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="14dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        app:srcCompat="@android:drawable/ic_menu_search"
+        tools:layout_editor_absoluteX="278dp"
+        tools:layout_editor_absoluteY="19dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="116dp"
+        android:layout_height="34dp"
+        android:text="Fruits"
+        android:textColor="#F6F1F1"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="112dp"
+        android:layout_height="34dp"
+        android:text="Viande"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="701dp" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:layout_editor_absoluteX="348dp"
+        tools:layout_editor_absoluteY="701dp" />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/btn_star_big_off"
+        tools:layout_editor_absoluteX="343dp"
+        tools:layout_editor_absoluteY="381dp" />
+
+    <ImageView
+        android:id="@+id/imageView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/btn_star_big_off"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="381dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

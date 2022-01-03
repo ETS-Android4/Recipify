@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Directories.Profile">
+
+
+    <Button
+        android:id="@+id/profil_delete"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Supprimer le compte"
+        android:textColor="@color/white"
+        app:backgroundTint="#ee8007"
+        app:layout_constraintBottom_toTopOf="@+id/profil_deconnecter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_email"
+        app:layout_constraintVertical_bias="0.59" />
+
+    <Button
+        android:id="@+id/profil_mdp"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Changer le mot de passe"
+        android:textColor="@color/white"
+        app:backgroundTint="#ee8007"
+        app:layout_constraintBottom_toTopOf="@+id/profil_deconnecter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_email"
+        app:layout_constraintVertical_bias="0.886" />
+
+    <TextView
+        android:id="@+id/profil_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/profil"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/label_nom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.006" />
+
+    <TextView
+        android:id="@+id/editText_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="376dp"
+        android:autofillHints="email"
+        android:textSize="24sp"
+        app:backgroundTint="#ee8007"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/label_nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="@string/nom"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/editText_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:autofillHints="name"
+        android:textCursorDrawable="@color/jaune_logo"
+        android:textSize="24sp"
+        app:backgroundTint="#ee8007"
+        app:layout_constraintBottom_toTopOf="@+id/label_email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/label_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="@string/courriel"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/editText_email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/profil_confirmer"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="@string/confirmer"
+        android:textColor="@color/white"
+        app:backgroundTint="#ee8007"
+        app:layout_constraintBottom_toTopOf="@+id/profil_deconnecter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_email"
+        app:layout_constraintVertical_bias="0.287" />
+
+    <Button
+        android:id="@+id/profil_deconnecter"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="Se déconnecter"
+        android:textColor="@color/white"
+        app:backgroundTint="#989898"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

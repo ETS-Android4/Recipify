@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Recipify</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="adresse_courriel">Adresse courriel</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="se_connecter">Se connecter</string>
+    <string name="connexion">Connexion</string>
+    <string name="cr_er_un_compte">Créer un compte</string>
+    <string name="nom_d_utilisateur">"Nom d'utilisateur"</string>
+    <string name="vous_avez_d_j_un_compte_connectez_vous">Vous avez déjà un compte? <u>Connectez-vous</u></string>
+    <string name="inscription">Inscription</string>
+    <string name="cr_er_mon_compte">Créer mon compte</string>
+    <string name="confirmer_le_mot_de_passe">Confirmer le mot de passe</string>
+    <string name="identifiant_unique">Identifiant unique</string>
+    <string name="nom">Nom</string>
+    <string name="identifiant">Identifiant</string>
+    <string name="courriel">Courriel</string>
+    <string name="textview">TextView</string>
+    <string name="gear">gear</string>
+    <string name="profil">Profil</string>
+    <string name="confirmer">Confirmer</string>
+    <string name="title_activity_navigation">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="sabonner">"S'abonner"</string>
+    <string name="hello_world">Help!</string>
+    <string name="logo_description">Logo de Recipify</string>
+    <string name="title_activity_recipe_viewer">RecipeViewer</string>
+    <string name="tab_text_1">Description</string>
+    <string name="tab_text_2">Sommaire</string>
+    <string name="image_recette">Image d\'une recette</string>
+    <string-array name="filters">
+        <item>Default</item>
+        <item>Vegan</item>
+        <item>No Gluten</item>
+        <item>Italian</item>
+        <item>French</item>
+        <item>Thai</item>
+        <item>Korean</item>
+        <item>Indian</item>
+    </string-array>
+</resources>

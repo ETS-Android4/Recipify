@@ -1,0 +1,56 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package ApplicationDeSuggestionsDeRecettes{
+
+       class Utilisateur{
+            -Profil: profil
+            -Calendrier: calendrier
+            - List<Recette>: favoris
+            - List<ListeEpicerie>: listeEpicerie
+       }
+
+       class Calendrier{
+            -String: jour
+            -Date: date
+            -String: repas
+       }
+
+       class Profil{
+            - String: nom
+            - String: prenom
+            - String: adresseCourriel
+            - String: nomUtilisateur
+            - String: motDePasse
+            - List<Recette>: preferences
+            - List<Ingredient>: allergies
+       }
+
+       class Ingredient{
+            - String: nom
+            - Integer: quantite
+       }
+
+       class Recette{
+            - String: nom
+            - List<Ingredient>: ingredients
+       }
+
+       class ListeEpicerie{
+            -Map<Ingredient,int>: ingredients
+       }
+
+       class Favori{
+            -List<Recette>: recettes
+       }
+
+       Favori -- Recette
+       ListeEpicerie -- Ingredient
+       ListeEpicerie -up- Utilisateur
+       Utilisateur -left- Calendrier
+       Utilisateur -right- Favori
+       Utilisateur -right- Profil
+       Ingredient -- Recette
+}
+
+@enduml

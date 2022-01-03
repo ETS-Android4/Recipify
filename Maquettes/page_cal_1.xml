@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBF9F9"
+    android:backgroundTint="#FDFDFD"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="426dp"
+        android:layout_height="42dp"
+        android:background="#DC817A"
+
+        android:gravity="center"
+        android:text="Calendrier"
+        android:textColor="#F6F1F1"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="88dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="413dp"
+        android:layout_height="69dp"
+        android:background="#DC817A"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="52dp"
+        android:layout_height="55dp"
+        app:srcCompat="@android:drawable/ic_dialog_dialer"
+        tools:layout_editor_absoluteX="343dp"
+        tools:layout_editor_absoluteY="11dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recepify"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="14dp" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="380dp"
+        android:layout_height="357dp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="187dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

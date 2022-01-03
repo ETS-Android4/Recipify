@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15sp">
+
+
+    <TextView
+        android:id="@+id/numero_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/nom_item"
+        android:layout_marginBottom="2sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/nom_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="28sp"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:id="@+id/add_quantity"
+        android:layout_width="22sp"
+        android:layout_height="22sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="176dp"
+        android:layout_toLeftOf="@+id/remove_quantity"
+        android:layout_centerVertical="true"
+        android:src="@drawable/add_quantity" />
+
+    <TextView
+        android:id="@+id/quantity_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="132dp"
+        android:layout_marginRight="-57dp"
+        android:layout_toLeftOf="@+id/add_quantity"
+        android:layout_centerVertical="true"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/remove_quantity"
+        android:layout_width="22sp"
+        android:layout_height="22sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="88dp"
+        android:layout_toLeftOf="@+id/remove_item"
+        android:layout_centerVertical="true"
+        android:src="@drawable/remove_quantity" />
+
+    <ImageView
+        android:id="@+id/remove_item"
+        android:layout_width="22sp"
+        android:layout_height="22sp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="18sp"
+        android:src="@drawable/remove_item"/>
+
+</RelativeLayout>

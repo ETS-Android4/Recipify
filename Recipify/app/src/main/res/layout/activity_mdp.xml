@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Directories.Mdp">
+
+
+    <EditText
+        android:id="@+id/mdp_new_pass"
+        android:layout_width="313dp"
+        android:layout_height="44dp"
+
+        android:layout_marginBottom="33dp"
+        android:autofillHints="password"
+        android:backgroundTint="#FFFF4444"
+        android:ems="10"
+        android:hint="Nouveau mot de passe"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/btn_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/field_password"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/seConnecter_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="136dp"
+        android:text="Modifier le mot de passe"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/field_email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/field_email"
+        android:layout_width="313dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="300dp"
+        android:autofillHints="email"
+        android:backgroundTint="#FFFF4444"
+        android:ems="10"
+        android:hint="@string/adresse_courriel"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/field_password"
+        android:layout_width="313dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="104dp"
+
+        android:autofillHints="password"
+        android:backgroundTint="#FFFF4444"
+        android:ems="10"
+        android:hint="Ancien mot de passe"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/btn_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/field_email" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="192dp"
+        android:text="Confirmer"
+        android:textColor="@color/white"
+        app:backgroundTint="#FF4444"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

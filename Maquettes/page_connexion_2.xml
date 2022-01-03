@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBF9F9"
+    android:backgroundTint="#FDFDFD"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="282dp"
+        android:layout_height="43dp"
+        android:autoText="false"
+        android:background="#DC817A"
+        android:gravity="center"
+        android:text="Se connecter"
+
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="282dp"
+        android:layout_height="43dp"
+        android:autoText="false"
+        android:background="#DC817A"
+        android:gravity="center"
+        android:text="Créer un compte"
+
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="512dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="201dp"
+        android:layout_height="42dp"
+        android:autoText="false"
+        android:background="#FFFFFF"
+        android:text="Mot de passe oublié"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="585dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="413dp"
+        android:layout_height="69dp"
+        android:background="#DC817A"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recepify"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="14dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="338dp"
+        android:layout_height="71dp"
+        android:gravity="center"
+        android:text="Description application Description application Description application Description application Description application Description application "
+        tools:layout_editor_absoluteX="36dp"
+
+        tools:layout_editor_absoluteY="187dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="201dp"
+        android:layout_height="42dp"
+        android:autoText="false"
+        android:background="#FFFFFF"
+        android:text="Bienvenue"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="277dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Courriel"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="298dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="278dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Mot de passe"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

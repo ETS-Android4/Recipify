@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBF9F9"
+    android:backgroundTint="#FDFDFD"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="426dp"
+        android:layout_height="42dp"
+        android:background="#DC817A"
+
+        android:gravity="center"
+        android:text="Vos préférées"
+        android:textColor="#F6F1F1"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="-8dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="39dp"
+        android:autoText="false"
+        android:gravity="center"
+
+        android:background="#DC817A"
+        android:text="Week-end"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="161dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="352dp"
+        android:layout_height="80dp"
+        android:text="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.."
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="585dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="599dp"
+        android:layout_height="351dp"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:layout_editor_absoluteX="-93dp"
+        tools:layout_editor_absoluteY="681dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="599dp"
+        android:layout_height="351dp"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:layout_editor_absoluteX="-93dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="190dp"
+        android:layout_height="39dp"
+        android:background="#DC817A"
+        android:shadowColor="#FDFDFD"
+        android:gravity="center"
+
+        android:text="Pour aujourd'hui"
+        android:textAlignment="gravity"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="161dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="413dp"
+        android:layout_height="69dp"
+        android:background="#DC817A"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="52dp"
+        android:layout_height="55dp"
+        app:srcCompat="@android:drawable/ic_dialog_dialer"
+        tools:layout_editor_absoluteX="343dp"
+        tools:layout_editor_absoluteY="11dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recepify"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="14dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        app:srcCompat="@android:drawable/ic_menu_search"
+        tools:layout_editor_absoluteX="278dp"
+        tools:layout_editor_absoluteY="11dp" />
+
+    <ImageView
+        android:id="@+id/imageView43"
+        android:layout_width="40dp"
+        android:layout_height="42dp"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:layout_editor_absoluteX="343dp"
+        tools:layout_editor_absoluteY="535dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

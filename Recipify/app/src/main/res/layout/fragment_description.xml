@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardview_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    cardview:cardCornerRadius="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/comment_field"
+            android:layout_width="249dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#FFEE8007"
+            android:ems="10"
+            android:hint="Ajouter un commentaire"
+            android:inputType="textPersonName"
+            android:textColorHighlight="#FFEE8007"
+            android:textColorLink="#FFEE8007"
+            cardview:layout_constraintEnd_toEndOf="parent"
+            cardview:layout_constraintHorizontal_bias="0.411"
+            cardview:layout_constraintStart_toStartOf="parent"
+            cardview:layout_constraintTop_toBottomOf="@+id/button_pref" />
+
+        <ListView
+            android:id="@+id/list_comments"
+            android:layout_width="355dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="10dp"
+            cardview:layout_constraintEnd_toEndOf="parent"
+            cardview:layout_constraintStart_toStartOf="parent"
+            cardview:layout_constraintTop_toBottomOf="@+id/comment_field" />
+
+        <Button
+            android:id="@+id/button_pref"
+            android:layout_width="240dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="150dp"
+            android:backgroundTint="#FFEE8007"
+            android:gravity="center"
+            cardview:layout_constraintEnd_toEndOf="parent"
+            cardview:layout_constraintHorizontal_bias="0.467"
+            cardview:layout_constraintStart_toStartOf="parent"
+            cardview:layout_constraintTop_toBottomOf="@+id/image_recette" />
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="393dp"
+            android:layout_height="398dp"
+            cardview:layout_constraintBottom_toBottomOf="parent"
+            cardview:layout_constraintEnd_toEndOf="parent"
+            cardview:layout_constraintHorizontal_bias="0.0"
+            cardview:layout_constraintStart_toStartOf="parent"
+            cardview:layout_constraintTop_toTopOf="parent"
+            cardview:layout_constraintVertical_bias="0.0">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="81dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:text="Recette végan?"
+            android:textStyle="bold"
+            cardview:layout_constraintEnd_toEndOf="parent"
+            cardview:layout_constraintHorizontal_bias="0.648"
+            cardview:layout_constraintStart_toStartOf="parent"
+            cardview:layout_constraintTop_toBottomOf="@+id/image_recette" />
+
+        <TextView
+            android:id="@+id/headerTextVegan"
+            android:layout_width="81dp"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:text="Vegan"
+            cardview:layout_constraintEnd_toEndOf="parent"
+            cardview:layout_constraintHorizontal_bias="0.648"
+            cardview:layout_constraintStart_toStartOf="parent"
+            cardview:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <ImageView
+            android:id="@+id/image_recette"
+            android:layout_width="415dp"
+            android:layout_height="150dp"
+            android:background="#2d2d2d"
+            android:contentDescription="image_recette"
+            android:scaleType="centerCrop"
+            cardview:layout_constraintBottom_toBottomOf="parent"
+            cardview:layout_constraintEnd_toEndOf="parent"
+            cardview:layout_constraintHorizontal_bias="0.0"
+            cardview:layout_constraintStart_toStartOf="parent"
+            cardview:layout_constraintTop_toTopOf="parent"
+            cardview:layout_constraintVertical_bias="0.172" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="81dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:text="Nombre de portions"
+            android:textStyle="bold"
+            cardview:layout_constraintEnd_toEndOf="parent"
+            cardview:layout_constraintHorizontal_bias="0.048"
+            cardview:layout_constraintStart_toStartOf="parent"
+            cardview:layout_constraintTop_toBottomOf="@+id/image_recette" />
+
+        <TextView
+            android:id="@+id/headerTextServings"
+            android:layout_width="81dp"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:text="Portions"
+            cardview:layout_constraintEnd_toEndOf="parent"
+            cardview:layout_constraintHorizontal_bias="0.048"
+            cardview:layout_constraintStart_toStartOf="parent"
+            cardview:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="81dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:text="Recette avec gluten ?"
+            android:textStyle="bold"
+            cardview:layout_constraintEnd_toEndOf="parent"
+            cardview:layout_constraintHorizontal_bias="0.951"
+            cardview:layout_constraintStart_toStartOf="parent"
+            cardview:layout_constraintTop_toBottomOf="@+id/image_recette" />
+
+        <TextView
+            android:id="@+id/headerTextGlutenFree"
+            android:layout_width="81dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:text="Gluten"
+            cardview:layout_constraintEnd_toEndOf="parent"
+            cardview:layout_constraintHorizontal_bias="0.951"
+            cardview:layout_constraintStart_toStartOf="parent"
+            cardview:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/headerTextTitre"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="Title"
+            android:textColor="#2d2d2d"
+            android:textSize="20dp"
+            cardview:layout_constraintBottom_toTopOf="@+id/image_recette"
+            cardview:layout_constraintEnd_toEndOf="parent"
+            cardview:layout_constraintHorizontal_bias="1.0"
+            cardview:layout_constraintStart_toStartOf="parent"
+            cardview:layout_constraintTop_toTopOf="parent"
+            cardview:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="81dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:text="Temps de préparation"
+            android:textStyle="bold"
+            cardview:layout_constraintEnd_toEndOf="parent"
+            cardview:layout_constraintHorizontal_bias="0.348"
+            cardview:layout_constraintStart_toStartOf="parent"
+            cardview:layout_constraintTop_toBottomOf="@+id/image_recette" />
+
+        <TextView
+            android:id="@+id/headerTextReadyInMins"
+            android:layout_width="81dp"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:text="Temps"
+            cardview:layout_constraintEnd_toEndOf="parent"
+            cardview:layout_constraintHorizontal_bias="0.348"
+            cardview:layout_constraintStart_toStartOf="parent"
+            cardview:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <Button
+            android:id="@+id/add_comment"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/ic_baseline_send_24"
+            android:backgroundTint="#FFEE8007"
+            cardview:layout_constraintBottom_toTopOf="@+id/list_comments"
+            cardview:layout_constraintEnd_toEndOf="parent"
+            cardview:layout_constraintHorizontal_bias="0.21"
+            cardview:layout_constraintStart_toEndOf="@+id/comment_field"
+            cardview:layout_constraintTop_toBottomOf="@+id/button_pref"
+            cardview:layout_constraintVertical_bias="0.8" />
+
+        <TextView
+            android:id="@+id/note_moy"
+            android:layout_width="77dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="95dp"
+            android:gravity="center"
+            android:text="NOTE"
+            android:textSize="14dp"
+            cardview:layout_constraintEnd_toEndOf="parent"
+            cardview:layout_constraintHorizontal_bias="0.889"
+            cardview:layout_constraintStart_toStartOf="parent"
+            cardview:layout_constraintTop_toBottomOf="@+id/image_recette" />
+
+        <EditText
+            android:id="@+id/not_input"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="95dp"
+            android:backgroundTint="#FFEE8007"
+            android:hint="/10"
+            android:inputType="numberSigned"
+            android:textColorHighlight="@color/purple_700"
+            android:textColorLink="@color/purple_700"
+            android:textCursorDrawable="@color/purple_700"
+            cardview:layout_constraintStart_toStartOf="parent"
+            cardview:layout_constraintTop_toBottomOf="@+id/image_recette" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_marginTop="95dp"
+            android:backgroundTint="#FFEE8007"
+            android:gravity="center"
+            android:text="Noter"
+            cardview:layout_constraintEnd_toStartOf="@+id/textView"
+            cardview:layout_constraintStart_toEndOf="@+id/not_input"
+            cardview:layout_constraintTop_toBottomOf="@+id/image_recette" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_marginTop="95dp"
+            android:gravity="center"
+            android:text="Moyenne :"
+            android:textSize="14sp"
+            cardview:layout_constraintEnd_toStartOf="@+id/note_moy"
+            cardview:layout_constraintTop_toBottomOf="@+id/image_recette" />
+
+        <Button
+            android:id="@+id/like"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_baseline_favorite_24"
+            android:backgroundTint="#FFEE8007"
+            cardview:layout_constraintBottom_toBottomOf="@+id/button_pref"
+            cardview:layout_constraintEnd_toEndOf="@+id/button_pref"
+            cardview:layout_constraintTop_toTopOf="@+id/button_pref" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

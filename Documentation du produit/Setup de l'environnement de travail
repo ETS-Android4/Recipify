@@ -1,0 +1,6 @@
+Étapes à suivre pour pouvoir travailler sur le projet à partir de votre propre machine peu importe votre système d'exploitation:
+
+1) Installer Android Studio et mettre à jour à la dernière version
+2) Installer le plugin Firebase dans Android Studio
+3) Git clone le projet avec l'URL https://gitlab.info.uqam.ca/chevre-des-montages
+4) Git checkout sur la branche sur laquelle vous devez travailler

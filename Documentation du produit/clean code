@@ -1,0 +1,29 @@
+Style:
+Le code rédigé pour ce projet doit suivre les conventions de code de Oracle:
+https://www.oracle.com/technetwork/java/codeconventions-150003.pdf
+
+
+Sommairement, la nomenclature des éléments doit suivre ce modèle qui repose sur le camelCase. Chaque fin de méthode ou de '}' est suivie d'un saut de ligne et l'indentation doit respecter l'exemple ci-dessous.
+
+/**
+* Exemple de nomenclature
+**/
+class Exemple{
+    
+    public static void demontrerExemple(){
+        Variable variableExemple;
+    }
+
+    public static void demontrerDeuxiemeExemple(){
+        return null;
+    }
+}
+
+
+La nomenclature des variables et des méthodes doit être en anglais. Cependant, les commentaires doivent être rédigés en français pour faciliter la lisibilité du code.
+
+
+Classes:
+L'utilisation des classes dans Android Studio servira principalement à représenter les différentes pages de l'application. On suit le principe de responsabilité unique où une classe fait une seule chose.
+
+

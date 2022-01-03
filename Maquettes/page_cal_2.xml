@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBF9F9"
+    android:backgroundTint="#FDFDFD"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="575dp" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:layout_editor_absoluteX="276dp"
+        tools:layout_editor_absoluteY="575dp" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="575dp" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="369dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:layout_editor_absoluteX="276dp"
+        tools:layout_editor_absoluteY="369dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="369dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:layout_editor_absoluteX="276dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="426dp"
+        android:layout_height="42dp"
+        android:background="#DC817A"
+
+        android:gravity="center"
+        android:text="Cette semaine"
+        android:textColor="#F6F1F1"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="-8dp"
+        tools:layout_editor_absoluteY="505dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="426dp"
+        android:layout_height="42dp"
+        android:background="#DC817A"
+
+        android:gravity="center"
+        android:text="Demain"
+        android:textColor="#F6F1F1"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="-13dp"
+        tools:layout_editor_absoluteY="309dp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="426dp"
+        android:layout_height="42dp"
+        android:background="#DC817A"
+
+        android:gravity="center"
+        android:text="Aujourd'hui"
+        android:textColor="#F6F1F1"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="-8dp"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="413dp"
+        android:layout_height="69dp"
+        android:background="#DC817A"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="52dp"
+        android:layout_height="55dp"
+        app:srcCompat="@android:drawable/ic_dialog_dialer"
+        tools:layout_editor_absoluteX="343dp"
+        tools:layout_editor_absoluteY="11dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recepify"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="14dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="54dp"
+        android:layout_height="57dp"
+        app:srcCompat="@android:drawable/ic_menu_month"
+        tools:layout_editor_absoluteX="259dp"
+        tools:layout_editor_absoluteY="9dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

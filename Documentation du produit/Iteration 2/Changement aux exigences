@@ -1,0 +1,12 @@
+Toutes les User Stories à livrer pour la première itération ont été complétées.
+Le Use Case 'Modifier ses préférences' a été supprimé, car les préférences de l'utilisateur seront dictées lors de ses recherches de recettes.
+
+Il n'y a pas de changement au niveau des exigences pour cette itération.
+
+Cette itération requiert l'implémentation de l'API de Spoonacular. Contacter Jérémie ou Daniel si vous dépassez le nombre de requêtes gratuites maximales par jour que l'API offre.
+
+
+Les User Stories à livrer pour la deuxième itération sont:
+Acceuil
+Recettes
+Recherche de recettes
